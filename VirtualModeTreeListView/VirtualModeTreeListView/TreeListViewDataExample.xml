@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TREELISTVIEW-MODEL>
+  <!-- xoxoxoxoxoxoxoxoxoxoxoxoxoxoxoxoxoxoxoxoxoxoxoxoxoxoxoxoxoxoxoxoxoxoxoxoxoxoxoxoxoxoxoxoxoxoxoxoxoxoxoxoxoxoxoxoxo  -->
+  <!-- example data model xml file for virtual mode treelistview  -->
+  <!-- created 2009 by Peter Brightman  -->
+  <!-- xoxoxoxoxoxoxoxoxoxoxoxoxoxoxoxoxoxoxoxoxoxoxoxoxoxoxoxoxoxoxoxoxoxoxoxoxoxoxoxoxoxoxoxoxoxoxoxoxoxoxoxoxoxoxoxoxo  -->
+  
+  <Node name='Earth' comment='our planet' expanded='no'>
+	  <Node name='Asia' comment='far east' expanded='no'>  
+		  <Node name='Taiwan' comment='formosa island' expanded='no'>
+        <Node name='Taoyuan' comment='go to rodeos pub or howling wolf disco' expanded='no' />
+        <Node name='Taipeh' comment='visit the chiang kai shek museum' expanded='no' />
+      </Node>  
+    </Node>
+	  <Node name='Europe' comment='middle earth' expanded='no'>  
+		  <Node name='Germany' comment='my country' expanded='true'>  
+			  <Node name='Bavaria' comment='weissbeer land' expanded='no'>  
+				  <Node name='Munich' comment='beergarden town' />
+				  <Node name='Lindau' comment='almost an island' />
+				  <Node name='Nuernberg' comment='current city' />
+			  </Node>
+			  <Node name='Hessen' comment='us army' expanded='no'>  
+				  <Node name='Frankfurt' comment='germoneys bank city' />
+				  <Node name='Darmstadt' comment='not bad' />				
+			  </Node>
+		  </Node>
+      <Node name='France' comment='vive la france' expanded='no'>
+        <Node name='Paris' comment='must have some eiffel-tower' />
+        <Node name='Nizza' comment='one more french city' />
+      </Node>
+	  </Node>
+  </Node>
+  <Node name='Saturn' comment='has rings' />
+  <Node name='Venus' comment='very hot' />
+  </TREELISTVIEW-MODEL>
+  
